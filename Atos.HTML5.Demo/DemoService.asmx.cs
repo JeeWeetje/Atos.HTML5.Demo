@@ -22,5 +22,11 @@ namespace Atos.HTML5.Demo
         {
             return "Hello World";
         }
+
+        [WebMethod]
+        public string WhatFruitDoYouHave()
+        {
+            return "Bananas";
+        }
     }
 }
