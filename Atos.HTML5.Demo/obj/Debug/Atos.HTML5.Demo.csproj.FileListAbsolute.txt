@@ -1,0 +1,5 @@
+D:\Projects\Atos.HTML5.Demo\bin\Atos.HTML5.Demo.dll
+D:\Projects\Atos.HTML5.Demo\bin\Atos.HTML5.Demo.pdb
+D:\Projects\Atos.HTML5.Demo\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Atos.HTML5.Demo\obj\Debug\Atos.HTML5.Demo.dll
+D:\Projects\Atos.HTML5.Demo\obj\Debug\Atos.HTML5.Demo.pdb
