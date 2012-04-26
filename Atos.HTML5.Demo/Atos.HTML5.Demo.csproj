@@ -75,9 +75,8 @@
     <Content Include="html\semantic.html" />
     <Content Include="html\video.html" />
     <Content Include="html\webgl.html" />
-    <Content Include="javascript\jquery-1.4.1-vsdoc.js" />
-    <Content Include="javascript\jquery-1.4.1.js" />
-    <Content Include="javascript\jquery-1.4.1.min.js" />
+    <Content Include="javascript\ajax.js" />
+    <Content Include="javascript\jquery.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
