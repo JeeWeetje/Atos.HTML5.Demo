@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    @-webkit-keyframes pulse {
+      from {
+        opacity: 0.0;
+        font-size: 100%;
+      }
+      to {
+        opacity: 1.0;
+        font-size: 200%;
+      }
+    }
+    
+    div {
+      -webkit-animation-name: pulse;
+      -webkit-animation-duration: 2s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-direction: alternate;
+    }
+  </style>
+  </head>
+  <body>
+    <div id="content"></div>
+    <p id="log"></p>
+    <script>
+      document.getElementById('content').innerHTML = 'animated content';
+    </script>
+  </body>
+</html>​
