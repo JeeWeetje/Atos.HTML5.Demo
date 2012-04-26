@@ -52,12 +52,32 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\2dtransforms.html" />
+    <Content Include="css\animations.html" />
+    <Content Include="css\columns.html" />
+    <Content Include="css\core.css" />
+    <Content Include="css\gradients.html" />
+    <Content Include="css\mediaqueries.css" />
+    <Content Include="css\mediaqueries.html" />
+    <Content Include="css\newselectors.html" />
+    <Content Include="css\roundedcorners.html" />
     <Content Include="css\Site.css" />
+    <Content Include="css\textstroke.html" />
+    <Content Include="css\transistions.html" />
     <Content Include="default.html" />
     <Content Include="DemoService.asmx" />
-    <Content Include="js\jquery-1.4.1-vsdoc.js" />
-    <Content Include="js\jquery-1.4.1.js" />
-    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="html\audio.html" />
+    <Content Include="html\canvas.html" />
+    <Content Include="html\formfields.html" />
+    <Content Include="html\linkrelations.html" />
+    <Content Include="html\microdata.html" />
+    <Content Include="html\selector.html" />
+    <Content Include="html\semantic.html" />
+    <Content Include="html\video.html" />
+    <Content Include="html\webgl.html" />
+    <Content Include="javascript\jquery-1.4.1-vsdoc.js" />
+    <Content Include="javascript\jquery-1.4.1.js" />
+    <Content Include="javascript\jquery-1.4.1.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -73,7 +93,9 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
